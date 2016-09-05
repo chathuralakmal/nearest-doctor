@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20EA4D49A14B8572B02F6FCA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 363FB14D15043CDB3D2829E2 /* libPods.a */; };
+		44C047D21D1A6E82004B3718 /* empire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44C047D11D1A6E82004B3718 /* empire.jpg */; };
+		44C047DC1D1AA397004B3718 /* medical.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C047DB1D1AA397004B3718 /* medical.png */; };
+		44F04ED21D19114D001EBCAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F04ED11D19114D001EBCAB /* main.m */; };
+		44F04ED51D19114D001EBCAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F04ED41D19114D001EBCAB /* AppDelegate.m */; };
+		44F04ED81D19114D001EBCAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F04ED71D19114D001EBCAB /* ViewController.m */; };
+		44F04EDB1D19114D001EBCAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F04ED91D19114D001EBCAB /* Main.storyboard */; };
+		44F04EDE1D19114D001EBCAB /* Nearest_Doctor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44F04EDC1D19114D001EBCAB /* Nearest_Doctor.xcdatamodeld */; };
+		44F04EE01D19114D001EBCAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F04EDF1D19114D001EBCAB /* Assets.xcassets */; };
+		44F04EE31D19114D001EBCAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F04EE11D19114D001EBCAB /* LaunchScreen.storyboard */; };
+		44F04EEE1D191885001EBCAB /* MKMapView+FXMapRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F04EED1D191885001EBCAB /* MKMapView+FXMapRouter.m */; };
+		44F04EF11D194781001EBCAB /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F04EF01D194781001EBCAB /* CustomAnnotation.m */; };
+		44F04EF71D195A2D001EBCAB /* hospital-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F04EF51D195A2D001EBCAB /* hospital-pin.png */; };
+		44F04EFA1D195AB1001EBCAB /* hospital-pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F04EF91D195AB1001EBCAB /* hospital-pin@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		363FB14D15043CDB3D2829E2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C047D11D1A6E82004B3718 /* empire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empire.jpg; sourceTree = "<group>"; };
+		44C047DB1D1AA397004B3718 /* medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medical.png; sourceTree = "<group>"; };
+		44F04ECD1D19114C001EBCAB /* Nearest Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nearest Doctor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F04ED11D19114D001EBCAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44F04ED31D19114D001EBCAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44F04ED41D19114D001EBCAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44F04ED61D19114D001EBCAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44F04ED71D19114D001EBCAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44F04EDA1D19114D001EBCAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44F04EDD1D19114D001EBCAB /* Nearest_Doctor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nearest_Doctor.xcdatamodel; sourceTree = "<group>"; };
+		44F04EDF1D19114D001EBCAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44F04EE21D19114D001EBCAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44F04EE41D19114D001EBCAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F04EEC1D191885001EBCAB /* MKMapView+FXMapRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+FXMapRouter.h"; sourceTree = "<group>"; };
+		44F04EED1D191885001EBCAB /* MKMapView+FXMapRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+FXMapRouter.m"; sourceTree = "<group>"; };
+		44F04EEF1D194781001EBCAB /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		44F04EF01D194781001EBCAB /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		44F04EF51D195A2D001EBCAB /* hospital-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hospital-pin.png"; sourceTree = "<group>"; };
+		44F04EF91D195AB1001EBCAB /* hospital-pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hospital-pin@2x.png"; sourceTree = "<group>"; };
+		76F438730C13BE61FE655F40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B2755BE6C320D503A4841A10 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44F04ECA1D19114C001EBCAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EA4D49A14B8572B02F6FCA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44F04EC41D19114C001EBCAB = {
+			isa = PBXGroup;
+			children = (
+				44F04ECF1D19114D001EBCAB /* Nearest Doctor */,
+				44F04ECE1D19114C001EBCAB /* Products */,
+				853D854B624162570C9DE015 /* Pods */,
+				EF1E8B3556157D959CD5AEA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44F04ECE1D19114C001EBCAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44F04ECD1D19114C001EBCAB /* Nearest Doctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44F04ECF1D19114D001EBCAB /* Nearest Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				44F04EEA1D19186D001EBCAB /* Helper */,
+				44F04ED31D19114D001EBCAB /* AppDelegate.h */,
+				44F04ED41D19114D001EBCAB /* AppDelegate.m */,
+				44F04ED61D19114D001EBCAB /* ViewController.h */,
+				44F04ED71D19114D001EBCAB /* ViewController.m */,
+				44F04ED91D19114D001EBCAB /* Main.storyboard */,
+				44F04EDF1D19114D001EBCAB /* Assets.xcassets */,
+				44F04EE11D19114D001EBCAB /* LaunchScreen.storyboard */,
+				44F04EE41D19114D001EBCAB /* Info.plist */,
+				44F04EDC1D19114D001EBCAB /* Nearest_Doctor.xcdatamodeld */,
+				44F04ED01D19114D001EBCAB /* Supporting Files */,
+			);
+			path = "Nearest Doctor";
+			sourceTree = "<group>";
+		};
+		44F04ED01D19114D001EBCAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44F04ED11D19114D001EBCAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44F04EEA1D19186D001EBCAB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				44F04EFB1D195C5F001EBCAB /* images */,
+				44F04EF21D194956001EBCAB /* Classes */,
+				44F04EEB1D191876001EBCAB /* Map */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		44F04EEB1D191876001EBCAB /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				44F04EEC1D191885001EBCAB /* MKMapView+FXMapRouter.h */,
+				44F04EED1D191885001EBCAB /* MKMapView+FXMapRouter.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		44F04EF21D194956001EBCAB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44F04EEF1D194781001EBCAB /* CustomAnnotation.h */,
+				44F04EF01D194781001EBCAB /* CustomAnnotation.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		44F04EFB1D195C5F001EBCAB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				44F04EF51D195A2D001EBCAB /* hospital-pin.png */,
+				44F04EF91D195AB1001EBCAB /* hospital-pin@2x.png */,
+				44C047D11D1A6E82004B3718 /* empire.jpg */,
+				44C047DB1D1AA397004B3718 /* medical.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		853D854B624162570C9DE015 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76F438730C13BE61FE655F40 /* Pods.debug.xcconfig */,
+				B2755BE6C320D503A4841A10 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF1E8B3556157D959CD5AEA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				363FB14D15043CDB3D2829E2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44F04ECC1D19114C001EBCAB /* Nearest Doctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44F04EE71D19114D001EBCAB /* Build configuration list for PBXNativeTarget "Nearest Doctor" */;
+			buildPhases = (
+				D289085B99D395A2CAF985E0 /* Check Pods Manifest.lock */,
+				44F04EC91D19114C001EBCAB /* Sources */,
+				44F04ECA1D19114C001EBCAB /* Frameworks */,
+				44F04ECB1D19114C001EBCAB /* Resources */,
+				46DF75FAD1BB4F229711BCEC /* Embed Pods Frameworks */,
+				C06C267C55502A01431C7F01 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nearest Doctor";
+			productName = "Nearest Doctor";
+			productReference = 44F04ECD1D19114C001EBCAB /* Nearest Doctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44F04EC51D19114C001EBCAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Chathura;
+				TargetAttributes = {
+					44F04ECC1D19114C001EBCAB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 44F04EC81D19114C001EBCAB /* Build configuration list for PBXProject "Nearest Doctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44F04EC41D19114C001EBCAB;
+			productRefGroup = 44F04ECE1D19114C001EBCAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44F04ECC1D19114C001EBCAB /* Nearest Doctor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44F04ECB1D19114C001EBCAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F04EE31D19114D001EBCAB /* LaunchScreen.storyboard in Resources */,
+				44C047D21D1A6E82004B3718 /* empire.jpg in Resources */,
+				44F04EE01D19114D001EBCAB /* Assets.xcassets in Resources */,
+				44F04EDB1D19114D001EBCAB /* Main.storyboard in Resources */,
+				44F04EFA1D195AB1001EBCAB /* hospital-pin@2x.png in Resources */,
+				44F04EF71D195A2D001EBCAB /* hospital-pin.png in Resources */,
+				44C047DC1D1AA397004B3718 /* medical.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46DF75FAD1BB4F229711BCEC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C06C267C55502A01431C7F01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D289085B99D395A2CAF985E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44F04EC91D19114C001EBCAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F04ED81D19114D001EBCAB /* ViewController.m in Sources */,
+				44F04ED51D19114D001EBCAB /* AppDelegate.m in Sources */,
+				44F04EEE1D191885001EBCAB /* MKMapView+FXMapRouter.m in Sources */,
+				44F04EF11D194781001EBCAB /* CustomAnnotation.m in Sources */,
+				44F04ED21D19114D001EBCAB /* main.m in Sources */,
+				44F04EDE1D19114D001EBCAB /* Nearest_Doctor.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44F04ED91D19114D001EBCAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44F04EDA1D19114D001EBCAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44F04EE11D19114D001EBCAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44F04EE21D19114D001EBCAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44F04EE51D19114D001EBCAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44F04EE61D19114D001EBCAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44F04EE81D19114D001EBCAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F438730C13BE61FE655F40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Nearest Doctor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ceyloanlabs.Nearest-Doctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44F04EE91D19114D001EBCAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2755BE6C320D503A4841A10 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Nearest Doctor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ceyloanlabs.Nearest-Doctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44F04EC81D19114C001EBCAB /* Build configuration list for PBXProject "Nearest Doctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F04EE51D19114D001EBCAB /* Debug */,
+				44F04EE61D19114D001EBCAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44F04EE71D19114D001EBCAB /* Build configuration list for PBXNativeTarget "Nearest Doctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F04EE81D19114D001EBCAB /* Debug */,
+				44F04EE91D19114D001EBCAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44F04EDC1D19114D001EBCAB /* Nearest_Doctor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44F04EDD1D19114D001EBCAB /* Nearest_Doctor.xcdatamodel */,
+			);
+			currentVersion = 44F04EDD1D19114D001EBCAB /* Nearest_Doctor.xcdatamodel */;
+			path = Nearest_Doctor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44F04EC51D19114C001EBCAB /* Project object */;
+}
